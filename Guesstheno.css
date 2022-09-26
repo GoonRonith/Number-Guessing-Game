@@ -108,13 +108,14 @@ nav li{
     margin-top: 30px;
     font-size: 20px;
 }
+#box{
+    font-size: 3vw;
+  }
 @media only screen and (max-width:768px)  {
   .userInput,.information{
     width: 80%;
   }
-  #box{
-    font-size: 15px;
-  }
+  
   .info{
     width: 90%;
   }
@@ -123,9 +124,7 @@ nav li{
   .userInput,.information{
     width: 80%;
   }
-  #box{
-    font-size: 10px;
-  }
+  
   .info{
     width: 90%;
   }

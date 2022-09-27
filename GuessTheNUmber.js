@@ -59,6 +59,8 @@ reset.addEventListener('click', () => {
     second.ivalue= "";
     third.innerHTML = "";
     track = 0;
+    ComputerInput = Math.floor((Math.random() * Math.random() * 9)+1);
+    win=0;
 })
 function hideCountDown() {
     second.value = "";
